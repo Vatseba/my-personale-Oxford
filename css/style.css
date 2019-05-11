@@ -38,6 +38,7 @@ nav{
 	color: black;
 	padding: 3px 10px;
 	border-radius: 5px;
+	font-size: 20px;
 }
 .menu{
 	display: flex;
@@ -58,27 +59,26 @@ article{
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
-	line-height: 50px;
+	line-height: 70px;
 }
 .right-section{
 	display: flex;
 	align-items: center;
 }
 .title{
-	font-size: 50px;
+	font-size: 55px;
+	color: #641200;
 }
 .meta{
-	font-size: 20px;
+	font-size: 22px;
 }
 .button{
-	background: purple;
-	text-decoration: none;
 	color: white;
+	background: purple;
 	border-radius: 5px;
-	width: 130px;
-	height: 50px;
+	width: 170px;
 	text-align: center;
-
+	text-decoration: none;
 }
 .button:hover{
 	text-decoration: underline;
